@@ -1,3 +1,5 @@
+//! ref: https://github.com/kosta/atomic-counter/blob/master/src/lib.rs
+
 use std::sync::atomic::{AtomicUsize, Ordering};
 
 pub trait AtomicCounter: Send + Sync {
